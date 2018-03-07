@@ -1,3 +1,4 @@
+//@public Class EndianReader
 var EndianReader = function EndianReader()
 {
 	this.swap32 = function(val) {
@@ -11,4 +12,6 @@ var EndianReader = function EndianReader()
 		return parseInt('0x'+result.join(''));
 	}
 };
+
+//@public static unsigned long swap32
 EndianReader.swap32 = new EndianReader().swap32;

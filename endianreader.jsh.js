@@ -1,4 +1,8 @@
 //@public Class EndianReader
+/* 
+ * @description: Used for converting endianness of numbers
+ */
+
 var EndianReader = function EndianReader()
 {
 	this.swap32 = function(val) {
